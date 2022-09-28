@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "src/main.js",
   "dependencies": {
-    "botway.js": "^0.0.6",
+    "botway.js": "^0.0.7",
     "tmi.js": "^1.8.5"
   },
   "devDependencies": {
