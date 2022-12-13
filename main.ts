@@ -1,8 +1,8 @@
-import { Client } from "tmi.js";
+import * as tmi from "tmi.js";
 import { GetToken } from "botway.js";
 
 const reputation: any = {};
-const client = new Client({
+const client = new tmi.Client({
   options: { debug: true },
   connection: {
     secure: true,
